@@ -1,0 +1,33 @@
+Jane Smith
+Email: jane.smith@email.com
+Phone: (987) 654-3210
+Location: New York, NY
+
+PROFESSIONAL SUMMARY
+Highly motivated Full Stack Developer with experience in React, Node.js, and SQL databases. Passinate about clean code and modern UI/UX design.
+
+TECHNICAL SKILLS
+React, JavaScript, HTML, CSS, Tailwind, Node.js, Express, PostgreSQL, Git, Linux
+
+EXPERIENCE
+
+Full Stack Developer at Amazon
+2022 - 2024
+- Built premium, interactive frontend components using React.
+- Created robust backend endpoints using Node.js and Express.
+- Designed database tables and optimized queries in PostgreSQL.
+
+Software Developer Intern at Microsoft
+2021 - 2022
+- Collaborated on developing internal support tools.
+- Wrote unit tests for frontend modules using Jest.
+
+EDUCATION
+
+Master of Science in Software Engineering at Massachusetts Institute of Technology
+2020 - 2022
+- Thesis on interactive user experiences.
+
+Bachelor of Science in Computer Science at New York University
+2016 - 2020
+- Completed courses in data structures, algorithms, and databases.

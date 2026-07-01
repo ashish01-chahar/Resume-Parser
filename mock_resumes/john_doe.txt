@@ -1,0 +1,31 @@
+John Doe
+Email: john.doe@email.com
+Phone: +1 123 456 7890
+Location: San Francisco, CA
+
+SUMMARY
+Senior Software Engineer with 5+ years of experience building scalable web applications. Specialist in Java, Spring Boot, and React.
+
+SKILLS
+Java, Spring Boot, React, JavaScript, SQL, MySQL, Docker, AWS, Git, REST API
+
+EXPERIENCE
+
+Senior Developer at Google
+2022 - Present
+- Designed and built high-performance microservices using Spring Boot.
+- Led a team of 4 developers to migration legacy services to Docker and AWS.
+- Built a modern admin dashboard in React and TypeScript.
+
+Software Engineer at Netflix
+2020 - 2022
+- Maintained core user profile microservices.
+- Optimized MySQL query performance, reducing response latency by 15%.
+- Implemented RESTful APIs for mobile clients.
+
+EDUCATION
+
+B.Tech in Computer Science at Stanford University
+2016 - 2020
+- GPA: 3.8/4.0
+- Focused on distributed systems and software engineering.
