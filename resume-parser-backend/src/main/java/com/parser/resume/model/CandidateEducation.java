@@ -1,11 +1,10 @@
 package com.parser.resume.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "education")
-public class Education {
+@Table(name = "candidate_education")
+public class CandidateEducation {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -16,19 +15,10 @@ public class Education {
     private String duration;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "resume_id")
-    @JsonIgnore
-    private Resume resume;
+    @JoinColumn(name = "candidate_id")
+    private Candidate candidate;
 
-    public Education() {}
-
-    public Education(Long id, String degree, String institution, String duration, Resume resume) {
-        this.id = id;
-        this.degree = degree;
-        this.institution = institution;
-        this.duration = duration;
-        this.resume = resume;
-    }
+    public CandidateEducation() {}
 
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
@@ -38,11 +28,6 @@ public class Education {
     public void setInstitution(String institution) { this.institution = institution; }
     public String getDuration() { return duration; }
     public void setDuration(String duration) { this.duration = duration; }
-    public Resume getResume() { return resume; }
-    public void setResume(Resume resume) { this.resume = resume; }
-
-    @Override
-    public String toString() {
-        return "Education{id=" + id + ", degree='" + degree + "', institution='" + institution + "'}";
-    }
+    public Candidate getCandidate() { return candidate; }
+    public void setCandidate(Candidate candidate) { this.candidate = candidate; }
 }
